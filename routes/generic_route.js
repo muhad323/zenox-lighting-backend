@@ -18,6 +18,11 @@ const createRouter = (Model, populateOptions = []) => {
             delete filters.limit;
 
             if (Object.keys(filters).length > 0) {
+                // Cast common string booleans
+                Object.keys(filters).forEach(key => {
+                    if (filters[key] === 'true') filters[key] = true;
+                    if (filters[key] === 'false') filters[key] = false;
+                });
                 query = query.where(filters);
             }
 
