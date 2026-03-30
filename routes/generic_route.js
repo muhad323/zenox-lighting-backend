@@ -7,18 +7,13 @@ const createRouter = (Model, populateOptions = []) => {
     router.get('/', async (req, res) => {
         try {
             let sort = req.query.sort || '-created_at';
-            // Handle comma separated sorts if needed, but simple string is fine for now
-            // e.g. ?sort=name or ?sort=-name
-
             let query = Model.find().sort(sort);
 
-            // Apply filtering if provided in query params (simplistic)
             const filters = { ...req.query };
             delete filters.sort;
             delete filters.limit;
 
             if (Object.keys(filters).length > 0) {
-                // Cast common string booleans
                 Object.keys(filters).forEach(key => {
                     if (filters[key] === 'true') filters[key] = true;
                     if (filters[key] === 'false') filters[key] = false;
@@ -35,11 +30,23 @@ const createRouter = (Model, populateOptions = []) => {
             }
 
             const items = await query.exec();
-
-            // Handle manual population if needed (since we use string IDs for refs)
-            // But for now let's just return what we have.
             res.json(items);
         } catch (err) {
+            console.error('Database error, attempting fallback:', err.message);
+            // Fallback for Products
+            if (Model.modelName === 'Product') {
+                try {
+                    const fs = require('fs');
+                    const path = require('path');
+                    const fallbackPath = path.join(__dirname, '..', 'fallback_products.json');
+                    if (fs.existsSync(fallbackPath)) {
+                        const fallbackData = JSON.parse(fs.readFileSync(fallbackPath, 'utf8'));
+                        return res.json(fallbackData);
+                    }
+                } catch (fallbackErr) {
+                    console.error('Fallback failed:', fallbackErr.message);
+                }
+            }
             res.status(500).json({ message: err.message });
         }
     });

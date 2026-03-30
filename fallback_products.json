@@ -1,0 +1,109 @@
+[
+  {
+    "name": "ZXT 3302",
+    "slug": "zxt-3302",
+    "description": "Premium architectural lighting solution.",
+    "category_id": "82292db5-2d77-460c-86ef-b95551628eed",
+    "images": [
+      "/uploads/images/b9336b67-c7f7-4a9c-be8e-76008a2590a3.jpeg"
+    ],
+    "features": ["High efficiency", "Durable aluminum"],
+    "is_active": true,
+    "is_featured": false,
+    "id": "1",
+    "product_categories": { "name": "Spotlights", "slug": "spotlights" }
+  },
+  {
+    "name": "ZXM 3607",
+    "slug": "zxm-3607",
+    "description": "Magnetic track lighting system.",
+    "category_id": "82292db5-2d77-460c-86ef-b95551628eed",
+    "images": [],
+    "features": ["Magnetic design"],
+    "is_active": true,
+    "is_featured": false,
+    "id": "2",
+    "product_categories": { "name": "Magnetic Track", "slug": "magnetic-track" }
+  },
+  {
+    "name": "ZXM 3606",
+    "slug": "zxm-3606",
+    "description": "Elegant accent lighting.",
+    "images": [],
+    "is_active": true,
+    "is_featured": false,
+    "id": "3"
+  },
+  {
+    "name": "ZXM 3605",
+    "slug": "zxm-3605",
+    "description": "Minimalist ceiling lamp.",
+    "images": [],
+    "is_active": true,
+    "is_featured": false,
+    "id": "4"
+  },
+  {
+    "name": "ZXM 3604",
+    "slug": "zxm-3604",
+    "description": "Industrial style spotlight.",
+    "images": [],
+    "is_active": true,
+    "is_featured": false,
+    "id": "5"
+  },
+  {
+    "name": "ZXM 3603",
+    "slug": "zxm-3603",
+    "description": "Sleek wall luminaire.",
+    "images": [],
+    "is_active": true,
+    "is_featured": false,
+    "id": "6"
+  },
+  {
+    "name": "ZXM 3602",
+    "slug": "zxm-3602",
+    "description": "High-end office lighting.",
+    "images": [],
+    "is_active": true,
+    "is_featured": false,
+    "id": "7"
+  },
+  {
+    "name": "ZXM 3601",
+    "slug": "zxm-3601",
+    "description": "Versatile interior light.",
+    "images": [],
+    "is_active": true,
+    "is_featured": false,
+    "id": "8"
+  },
+  {
+    "name": "ZXM 3600",
+    "slug": "zxm-3600",
+    "description": "Compact track head.",
+    "images": [],
+    "is_active": true,
+    "is_featured": false,
+    "id": "9"
+  },
+  {
+    "name": "ZXT 3300",
+    "slug": "zxt-3300",
+    "description": "Modern recessed light.",
+    "images": [],
+    "is_active": true,
+    "is_featured": false,
+    "id": "10"
+  },
+  {
+    "name": "ZXS 3105",
+    "slug": "zxs-3105",
+    "description": "High-performance directional light.",
+    "images": [],
+    "is_active": true,
+    "is_featured": false,
+    "id": "11"
+  }
+]
