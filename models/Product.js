@@ -9,6 +9,8 @@ const productSchema = new mongoose.Schema({
     category_id: { type: String, ref: 'Category' },
     images: { type: [String], default: [] },
     features: { type: [String], default: [] },
+    colors: { type: [String], default: [] },
+    color_temperatures: { type: [String], default: [] },
     is_active: { type: Boolean, default: true },
     is_featured: { type: Boolean, default: false },
     specifications: { type: mongoose.Schema.Types.Mixed, default: {} },

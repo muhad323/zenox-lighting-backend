@@ -7,11 +7,17 @@
     "images": [
       "/uploads/images/b9336b67-c7f7-4a9c-be8e-76008a2590a3.jpeg"
     ],
-    "features": ["High efficiency", "Durable aluminum"],
+    "features": [
+      "High efficiency",
+      "Durable aluminum"
+    ],
     "is_active": true,
     "is_featured": false,
     "id": "1",
-    "product_categories": { "name": "Spotlights", "slug": "spotlights" }
+    "product_categories": {
+      "name": "Spotlights",
+      "slug": "spotlights"
+    }
   },
   {
     "name": "ZXM 3607",
@@ -19,11 +25,16 @@
     "description": "Magnetic track lighting system.",
     "category_id": "82292db5-2d77-460c-86ef-b95551628eed",
     "images": [],
-    "features": ["Magnetic design"],
+    "features": [
+      "Magnetic design"
+    ],
     "is_active": true,
     "is_featured": false,
     "id": "2",
-    "product_categories": { "name": "Magnetic Track", "slug": "magnetic-track" }
+    "product_categories": {
+      "name": "Magnetic Track",
+      "slug": "magnetic-track"
+    }
   },
   {
     "name": "ZXM 3606",
@@ -105,5 +116,343 @@
     "is_active": true,
     "is_featured": false,
     "id": "11"
+  },
+  {
+    "colors": [
+      "Test Black"
+    ],
+    "id": "zxs-3100",
+    "updated_at": "2026-03-31T12:59:02.362Z"
+  },
+  {
+    "_id": "69cae7891970fe1ee7cebfaa",
+    "name": "ZXS 3100",
+    "slug": "zxs-3100",
+    "description": "Zenox Spotlight delivers precise, focused lighting in a sleek modern design perfect for highlighting interiors in residential, commercial, and retail spaces.",
+    "category_id": "82292db5-2d77-460c-86ef-b95551628eed",
+    "images": [
+      "https://zenox-lighting-backend-production.up.railway.app/uploads/images/4b11e39f-7a1c-404b-9ed8-89873ff61953.png",
+      "https://zenox-lighting-backend-production.up.railway.app/uploads/images/48c07d96-4c04-4738-9397-320548ad4212.png"
+    ],
+    "features": [
+      "MOUNTING TYPE            RECESSED MOUNTED",
+      "POWER                    7W / 12W",
+      "CCT                      2700K / 3000K / 3500K / 4000K / 5000K / 6500K ",
+      "LUMINOUS EFFICIENCY      90LM/W ",
+      "IP RATING                20",
+      "BEAM ANGLE               15°, 24°, 36°, 60°",
+      "CRI                      90",
+      "VOLTAGE                  220-240V",
+      "MATERIAL                 DIE-CAST ALUMINIUM",
+      "BODY FINISH              WHITE / BLACK",
+      "LED CHIP                 CITIZEN / PHILIPS / OSRAM / CREE ",
+      "LED DRIVER               TRIDONIC / VOSSLOH-SCHWABE / PHILIPS / EAGLERISE",
+      "DIMMING OPTIONS     NON-DIMMABLE (ON/OFF), TRIAC, DALI, 0–10V",
+      "DIMENSION                W63 X H62MM, W81 X H64MM",
+      "LIFESPAN                 50000H",
+      "WARRANTY                 5 YEARS"
+    ],
+    "is_active": true,
+    "is_featured": true,
+    "id": "10dd201b-f3c4-47bd-9e8f-bb3826c991d2",
+    "created_at": "2026-03-30T21:13:45.879Z",
+    "updated_at": "2026-03-31T13:04:15.505Z",
+    "__v": 0,
+    "color_temperatures": [],
+    "colors": [],
+    "$__": {
+      "activePaths": {
+        "paths": {
+          "slug": "init",
+          "name": "init",
+          "images": "init",
+          "features": "init",
+          "colors": "init",
+          "color_temperatures": "init",
+          "is_active": "init",
+          "is_featured": "init",
+          "_id": "init",
+          "description": "init",
+          "category_id": "init",
+          "id": "init",
+          "created_at": "init",
+          "updated_at": "init",
+          "__v": "init",
+          "specifications": "init"
+        },
+        "states": {
+          "require": {},
+          "default": {},
+          "init": {
+            "_id": true,
+            "name": true,
+            "slug": true,
+            "description": true,
+            "category_id": true,
+            "images": true,
+            "features": true,
+            "is_active": true,
+            "is_featured": true,
+            "id": true,
+            "created_at": true,
+            "updated_at": true,
+            "__v": true,
+            "specifications": true,
+            "color_temperatures": true,
+            "colors": true
+          }
+        }
+      },
+      "skipId": true
+    },
+    "$isNew": false,
+    "_doc": {
+      "_id": "69cae7891970fe1ee7cebfaa",
+      "name": "ZXS 3100",
+      "slug": "zxs-3100",
+      "description": "Zenox Spotlight delivers precise, focused lighting in a sleek modern design perfect for highlighting interiors in residential, commercial, and retail spaces.",
+      "category_id": "82292db5-2d77-460c-86ef-b95551628eed",
+      "images": [
+        "https://zenox-lighting-backend-production.up.railway.app/uploads/images/4b11e39f-7a1c-404b-9ed8-89873ff61953.png",
+        "https://zenox-lighting-backend-production.up.railway.app/uploads/images/48c07d96-4c04-4738-9397-320548ad4212.png"
+      ],
+      "features": [
+        "MOUNTING TYPE            RECESSED MOUNTED",
+        "POWER                    7W / 12W",
+        "CCT                      2700K / 3000K / 3500K / 4000K / 5000K / 6500K ",
+        "LUMINOUS EFFICIENCY      90LM/W ",
+        "IP RATING                20",
+        "BEAM ANGLE               15°, 24°, 36°, 60°",
+        "CRI                      90",
+        "VOLTAGE                  220-240V",
+        "MATERIAL                 DIE-CAST ALUMINIUM",
+        "BODY FINISH              WHITE / BLACK",
+        "LED CHIP                 CITIZEN / PHILIPS / OSRAM / CREE ",
+        "LED DRIVER               TRIDONIC / VOSSLOH-SCHWABE / PHILIPS / EAGLERISE",
+        "DIMMING OPTIONS     NON-DIMMABLE (ON/OFF), TRIAC, DALI, 0–10V",
+        "DIMENSION                W63 X H62MM, W81 X H64MM",
+        "LIFESPAN                 50000H",
+        "WARRANTY                 5 YEARS"
+      ],
+      "is_active": true,
+      "is_featured": true,
+      "id": "10dd201b-f3c4-47bd-9e8f-bb3826c991d2",
+      "created_at": "2026-03-30T21:13:45.879Z",
+      "updated_at": "2026-03-31T13:12:12.810Z",
+      "__v": 0,
+      "specifications": {},
+      "color_temperatures": [
+        "3000K"
+      ],
+      "colors": [
+        "Gold",
+        "Silver"
+      ]
+    }
+  },
+  {
+    "name": "Test-1",
+    "slug": "test-1",
+    "description": "Test Description",
+    "category_id": "1ba55d20-4ed2-460b-939d-1427375e5707",
+    "images": [
+      "http://localhost:5005/uploads/images/57635f34-3c4d-48b7-91d9-02bde72694c5.jpg"
+    ],
+    "features": [
+      "HHH"
+    ],
+    "colors": [
+      "white",
+      "black"
+    ],
+    "color_temperatures": [],
+    "is_active": true,
+    "is_featured": false,
+    "_id": "69cbd77c72a15ec6196f0c26",
+    "id": "63ceb667-c558-4e15-9e23-6c4b4b2f6ad7",
+    "created_at": "2026-03-31T14:17:32.941Z",
+    "updated_at": "2026-03-31T14:17:32.941Z",
+    "__v": 0,
+    "$__": {
+      "activePaths": {
+        "paths": {
+          "slug": "init",
+          "name": "init",
+          "images": "init",
+          "features": "init",
+          "colors": "init",
+          "color_temperatures": "init",
+          "is_active": "init",
+          "is_featured": "init",
+          "_id": "init",
+          "description": "init",
+          "category_id": "init",
+          "id": "init",
+          "created_at": "init",
+          "updated_at": "init",
+          "__v": "init",
+          "specifications": "init"
+        },
+        "states": {
+          "require": {},
+          "default": {},
+          "init": {
+            "_id": true,
+            "name": true,
+            "slug": true,
+            "description": true,
+            "category_id": true,
+            "images": true,
+            "features": true,
+            "colors": true,
+            "color_temperatures": true,
+            "is_active": true,
+            "is_featured": true,
+            "id": true,
+            "created_at": true,
+            "updated_at": true,
+            "__v": true,
+            "specifications": true
+          }
+        }
+      },
+      "skipId": true
+    },
+    "$isNew": false,
+    "_doc": {
+      "_id": "69cbd77c72a15ec6196f0c26",
+      "name": "Test-1",
+      "slug": "test-1",
+      "description": "Test Description",
+      "category_id": "1ba55d20-4ed2-460b-939d-1427375e5707",
+      "images": [
+        "http://localhost:5005/uploads/images/57635f34-3c4d-48b7-91d9-02bde72694c5.jpg"
+      ],
+      "features": [
+        "HHH"
+      ],
+      "colors": [
+        "white",
+        "black"
+      ],
+      "color_temperatures": [
+        "30000k",
+        "40000k"
+      ],
+      "is_active": true,
+      "is_featured": false,
+      "id": "63ceb667-c558-4e15-9e23-6c4b4b2f6ad7",
+      "created_at": "2026-03-31T14:17:32.941Z",
+      "updated_at": "2026-03-31T14:18:15.650Z",
+      "__v": 0,
+      "specifications": {}
+    }
+  },
+  {
+    "name": "ZXS 3100",
+    "slug": "zxs-3100",
+    "description": "QWERTYUIOP",
+    "category_id": "d344a24c-bd1e-4d1f-a3fc-9812edd2c029",
+    "images": [
+      "http://localhost:5005/uploads/images/265b7603-fc74-4694-90bc-0de0b0251661.jpg",
+      "http://localhost:5005/uploads/images/903ae025-1f5e-4e12-b4b6-180c043fb471.jpg"
+    ],
+    "features": [
+      "SDFGH.       RTYUIO",
+      "FGHJK        VBFGHJ",
+      "DFGHJ        FGHJKHJU"
+    ],
+    "colors": [
+      "Black",
+      "White"
+    ],
+    "color_temperatures": [
+      "30000k",
+      "35000k"
+    ],
+    "is_active": true,
+    "is_featured": false,
+    "_id": "69d345813f8ca27521971f9a",
+    "id": "20866b75-a19b-46d0-aceb-e1e1bfeb7d37",
+    "created_at": "2026-04-06T05:32:49.657Z",
+    "updated_at": "2026-04-06T05:32:49.657Z",
+    "__v": 0,
+    "$__": {
+      "activePaths": {
+        "paths": {
+          "slug": "init",
+          "name": "init",
+          "images": "init",
+          "features": "init",
+          "colors": "init",
+          "color_temperatures": "init",
+          "is_active": "init",
+          "is_featured": "init",
+          "_id": "init",
+          "description": "init",
+          "category_id": "init",
+          "id": "init",
+          "created_at": "init",
+          "updated_at": "init",
+          "__v": "init",
+          "specifications": "init"
+        },
+        "states": {
+          "require": {},
+          "default": {},
+          "init": {
+            "_id": true,
+            "name": true,
+            "slug": true,
+            "description": true,
+            "category_id": true,
+            "images": true,
+            "features": true,
+            "colors": true,
+            "color_temperatures": true,
+            "is_active": true,
+            "is_featured": true,
+            "id": true,
+            "created_at": true,
+            "updated_at": true,
+            "__v": true,
+            "specifications": true
+          }
+        }
+      },
+      "skipId": true
+    },
+    "$isNew": false,
+    "_doc": {
+      "_id": "69d345813f8ca27521971f9a",
+      "name": "ZXS 3100",
+      "slug": "zxs-3100",
+      "description": "QWERTYUIOP",
+      "category_id": "d344a24c-bd1e-4d1f-a3fc-9812edd2c029",
+      "images": [
+        "http://localhost:5005/uploads/images/265b7603-fc74-4694-90bc-0de0b0251661.jpg",
+        "http://localhost:5005/uploads/images/903ae025-1f5e-4e12-b4b6-180c043fb471.jpg"
+      ],
+      "features": [
+        "SDFGH.       RTYUIO",
+        "FGHJK        VBFGHJ",
+        "DFGHJ        FGHJKHJU"
+      ],
+      "colors": [
+        "Black",
+        "White"
+      ],
+      "color_temperatures": [
+        "30000k",
+        "35000k"
+      ],
+      "is_active": false,
+      "is_featured": false,
+      "id": "20866b75-a19b-46d0-aceb-e1e1bfeb7d37",
+      "created_at": "2026-04-06T05:32:49.657Z",
+      "updated_at": "2026-04-06T05:34:41.373Z",
+      "__v": 0,
+      "specifications": {}
+    }
   }
 ]
